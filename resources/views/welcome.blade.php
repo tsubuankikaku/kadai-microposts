@@ -4,7 +4,7 @@
     @if (Auth::check())
         <div class="row">
             <aside class="col-sm-4">
-                {{-- ユーザ情報 --}}
+                {{-- ユーザ情報 --}}php artisan make:migration create_user_follow_table --create=user_follow
                 @include('users.card')
             </aside>
             <div class="col-sm-8">
